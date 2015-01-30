@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for grouper.
-$(call inherit-product, device/htc/flounder/aosp_flounder.mk)
+$(call inherit-product, device/htc/flounder/full_flounder.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/rascarlo/products/common.mk)
@@ -19,3 +19,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
+
+# disable strictmode on boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.strictmode.visual=0 \
+    persist.sys.strictmode.disable=1
