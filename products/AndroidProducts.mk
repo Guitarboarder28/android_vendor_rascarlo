@@ -5,4 +5,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/rascarlo_mako.mk \
     $(LOCAL_DIR)/rascarlo_manta.mk \
     $(LOCAL_DIR)/rascarlo_shamu.mk \
-    $(LOCAL_DIR)/rascarlo_flounder.mk
+    $(LOCAL_DIR)/guitarboarder28_flounder.mk
