@@ -14,8 +14,8 @@ PRODUCT_MANUFACTURER := htc
 #Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=volantis \
-    BUILD_FINGERPRINT=google/volantis/flounder:5.1.1/LMY47X/1836172:user/release-keys \
-    PRIVATE_BUILD_DESC="volantis-user 5.1.1 LMY47X 1836172 release-keys"
+    BUILD_FINGERPRINT=google/volantis/flounder:5.1.1/LMY47X/1849464:user/release-keys \
+    PRIVATE_BUILD_DESC="volantis-user 5.1.1 LMY47X 1849464 release-keys"
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
